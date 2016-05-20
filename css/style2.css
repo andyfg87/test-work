@@ -1,0 +1,154 @@
+
+section.section1{
+    /*background: linear-gradient(rgba(1,0,0,.5),rgba(1,0,0,.5)),
+    url("../download/main-hero.ca9bc207.jpg")no-repeat  center;
+    background-size: cover;
+    color: #fff;
+    font-weight: lighter;
+    position: relative;
+    overflow: hidden;
+    //////////////////////////////////////////////////
+    background-image: linear-gradient(rgba(1,0,0,.5),rgba(1,0,0,.5)),url(../images/main-hero.ca9bc207.jpg);
+    background-size: cover;
+    color: #fff;
+    font-weight: 300;
+    position: relative;
+}
+
+    */
+
+    background:linear-gradient(rgba(1,0,0,.5),rgba(1,0,0,.5)), url("../download/main-hero.ca9bc207.jpg")-0px -50px no-repeat;
+    background-size: cover;
+    background-position: top;
+
+    color: #fff;
+    font-weight: 300;
+    position: relative;
+
+}
+.block-for-section{
+    display: block;
+}
+section.more-content {
+    height: 500px;
+    height: 100vh;
+    min-height: 500px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 0.3;
+    color: inherit;
+
+}
+#header-section1-h1{
+    font-size: 164%;
+    margin: 23px 21px;
+}
+
+li{
+    font-weight: lighter;
+    font-size: 100%;
+
+}
+section.section1.h1 {
+
+    font-weight: lighter;
+    line-height:7px;
+    text-align: right;
+    font-size: 0.6em;
+
+
+}
+
+section.section1.h2 {
+    font-weight: lighter;
+    font-size: 100%;
+    text-align: right;
+    font-size: 2.6em;
+}
+.button {
+    color: #fff;
+    background-color: #1fb7ea;
+    border-color: #1fb7ea;
+    font-size: 1.2em;
+    height: 38px;
+}
+p {
+    margin: 0 0 10px;
+    font-size: 1.4em;
+    text-align: center;
+    margin: 40px 0;
+
+}
+.more-padding{
+    margin: 0px -14px;
+    padding: 56px;
+}
+
+
+/*
+ Other section
+*/
+ section.section2{
+     background: url("../download/thumbnail-1.e1aa514b.jpg") no-repeat;
+     background-size: cover;
+     color: #fff;
+     font-weight: 400;
+     position: relative;
+
+ }
+
+ .background2{
+     background: url("../download/thumbnail-2.807eb24b.jpg") no-repeat;
+     /*background-size: cover;*/
+     color: #fff;
+     font-weight: 400;
+     position: relative;
+ }
+.background3{
+    background: url("../download/thumbnail-3.6d2fa81e.jpg") no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+}
+.background4{
+    background: url("../download/thumbnail-4.b6f085d0.jpg") no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+}
+.background1{
+    background: url("../download/thumbnail-1.e1aa514b.jpg") no-repeat;
+    background-size: cover;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+}
+
+ section.section2.travel{
+     position: absolute;
+     z-index: 10;
+     top: 40px;
+     left: 0;
+     right: 0;
+     margin: auto;
+     text-align: center;
+ }
+
+ section.section2.h1{
+     padding: 15px;
+ }
+
+ h1.text-center.header-section2-h1{
+     font-size: 122%;
+     margin: 44px;
+ }
+
+
+
+
+
+

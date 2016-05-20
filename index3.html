@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- saved from url=(0065)http://blackrockdigital.github.io/startbootstrap-the-big-picture/ -->
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Test</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap-3.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style2.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+
+    <![endif]-->
+
+</head>
+
+<body ng-app="myApp">
+
+<!-- Navigation -->
+
+
+<!-- Page Content -->
+<div class="container-fluid"  ng-controller="CarouselDemoCtrl">
+    <div class="row">
+        <section class="section1 more-content col-md-12 col-sm-12">
+
+            <ul class="list-inline">
+                <li class="">Home</li>
+                <li class="">Home</li>
+                <li class="">Home</li>
+                <li class="">Home</li>
+            </ul>
+            <div class="col-xs-12">
+                <div class="row text-center more-padding">
+                    <div class="col-sm-4 col-sm-offset-4 col-lg-2 col-lg-offset-5">
+                        <h1 id="header-section1-h1" class="text-center ">Seattle</h1>
+                        <h2 class="text-center ">City Stay</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-8 col-md-offset-2">
+                        <p>Start your Alaska vacation before your ship even sails. Add a Celebrity City Stay to your cruise and experience Seattle for three glorious days and nights.</p>
+                        <div class="text-center ">
+                            <button class="button">SEE THE ITINERARY</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="section2" data-ng-class="class" class=" col-md-12 col-sm-12">
+            <div class="travel">
+               <div class="row">
+                   <div class="col-xs-12 col-sm-4" >
+                       <h1 class="text-center header-section2-h1"> YOUR ITINERARY</h1>
+                       <ul class="list-inline">
+                           <li href="#" ng-click="changeBackground('background1')">Day 1</li>
+                           <li href="#" ng-click="changeBackground('background2')">Day 2</li>
+                           <li href="#" ng-click="changeBackground('background3')">Day 3</li>
+                           <li href="#" ng-click="changeBackground('background4')">Day 4</li>
+                       </ul>
+                       <!--<div ng-controller="CarouselDemoCtrl" id="slides_control">
+                           <div>
+                               <carousel interval="myInterval">
+                                   <slide ng-repeat="slide in slides" active="slide.active">
+                                       <img ng-src="{{slide.image}}">
+                                       <div class="carousel-caption">
+                                           <h4>Slide {{$index+1}}</h4>
+                                       </div>
+                                   </slide>
+                               </carousel>
+                           </div>
+                       </div>-->
+               </div>
+            </div>
+                </div>
+        </section>
+    </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+
+<!-- jQuery -->
+
+
+<!-- Bootstrap Core JavaScript -->
+<script src="css/bootstrap-3.3.2/dist/js/bootstrap.min.js"></script>
+
+<script src="js/Scripts/angular.min.js"></script>
+<script src="js/Scripts/ui-bootstrap-tpls-0.6.0.min.js"></script>
+<script src="js/Scripts/app/carousel-demo.js"></script>
+<script src="js/Scripts/app/app.js"></script>
+
+
+</body></html>

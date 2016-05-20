@@ -1,0 +1,30 @@
+
+section.section-1{
+    background: linear-gradient(rgba(1,0,0,.5),rgba(1,0,0,.5)),
+    url("../download/main-hero.ca9bc207.jpg")no-repeat center ;
+
+}
+    #s-h1-seattle, #s-h2-seattle{
+        text-align: right;
+
+    }
+    p {
+
+        text-align: center;
+    }
+    .section-center{
+        position: relative;
+        top: 90%;
+        margin: 20%;
+    }
+
+    .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+        font-family: inherit;
+        font-weight: 500;
+        line-height: 1.1;
+        color: #fff;
+    }
+    .h1, .h2, .h3, h1, h2, h3 {
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
