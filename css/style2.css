@@ -17,7 +17,7 @@ section.section1{
 
     */
 
-    background:linear-gradient(rgba(1,0,0,.5),rgba(1,0,0,.5)), url("../download/main-hero.ca9bc207.jpg")-0px -50px no-repeat;
+    background:linear-gradient(rgba(1,0,0,.5),rgba(1,0,0,.5)), url("../images/main-hero.ca9bc207.jpg")-0px -50px no-repeat;
     background-size: cover;
     background-position: top;
 
@@ -91,7 +91,7 @@ p {
  Other section
 */
  section.section2{
-     background: url("../download/thumbnail-1.e1aa514b.jpg") no-repeat;
+     background: url("../images/thumbnail-1.e1aa514b.jpg") no-repeat;
      background-size: cover;
      color: #fff;
      font-weight: 400;
@@ -100,28 +100,28 @@ p {
  }
 
  .background2{
-     background: url("../download/thumbnail-2.807eb24b.jpg") no-repeat;
+     background: url("../images/thumbnail-2.807eb24b.jpg") no-repeat;
      /*background-size: cover;*/
      color: #fff;
      font-weight: 400;
      position: relative;
  }
 .background3{
-    background: url("../download/thumbnail-3.6d2fa81e.jpg") no-repeat;
+    background: url("../images/thumbnail-3.6d2fa81e.jpg") no-repeat;
     background-size: cover;
     color: #fff;
     font-weight: 400;
     position: relative;
 }
 .background4{
-    background: url("../download/thumbnail-4.b6f085d0.jpg") no-repeat;
+    background: url("../images/thumbnail-4.b6f085d0.jpg") no-repeat;
     background-size: cover;
     color: #fff;
     font-weight: 400;
     position: relative;
 }
 .background1{
-    background: url("../download/thumbnail-1.e1aa514b.jpg") no-repeat;
+    background: url("../images/thumbnail-1.e1aa514b.jpg") no-repeat;
     background-size: cover;
     color: #fff;
     font-weight: 400;
