@@ -101,7 +101,7 @@ p {
 
  .background2{
      background: url("../images/thumbnail-2.807eb24b.jpg") no-repeat;
-     /*background-size: cover;*/
+     background-size: cover;
      color: #fff;
      font-weight: 400;
      position: relative;
