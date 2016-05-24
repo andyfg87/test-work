@@ -27,6 +27,16 @@ section.section1{
 
 }
 li { cursor: pointer; cursor: hand; }
+
+.decorator li{
+    color: #7b7b7b;
+    text-decoration: none;
+    transition: color .2s linear;
+    transition-property: color;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: initial;
+}
 .block-for-section{
     display: block;
 }
@@ -57,7 +67,8 @@ section.more-content {
 
 li{
     font-weight: lighter;
-    font-size: 100%;
+    font-size: 127%;
+    line-height: 2;
 
 }
 section.section1.h1 {
@@ -85,7 +96,7 @@ section.section1.h2 {
     line-height: 1;
 }
 .button-move-left{
-    margin: 203px 173px;
+    margin: 149px 173px;
 }
 .section1-p {
     margin: 0 0 10px;
@@ -191,16 +202,30 @@ section.section1.h2 {
     padding: 20px;
     color: #fff;
     height: 100%;
+    min-height: 368px;
 
 }
 #header-itinerary{
     margin-top: -70px;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    line-height:4;
 }
 
 .section2-title {
     background-color: #052259;
-    padding: 24px;
+    padding: 23px;
+    text-align: center;
+    margin: 0px -14px;
+}
+
+.text-right.header-section2-h1{
+    margin-top: 17px;
+    font-size: x-large;
+    margin: 10px 96px;
+}
+.same-height{
+    min-height: 373px;
+    height: 100%;
 }
 
 
