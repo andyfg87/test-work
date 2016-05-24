@@ -63,6 +63,7 @@ section.more-content {
     border-bottom: 1px solid #fff;
     margin: 10px 20px;
     text-align: right;
+    font-size: 23px;
 }
 
 li{
@@ -169,7 +170,7 @@ section.section1.h2 {
      padding: 15px;
  }
 .text-center{
-    line-height: 10;
+    line-height: 0;
 }
  h1.text-center.header-section2-h1{
      font-size: 122%;
