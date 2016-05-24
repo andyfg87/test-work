@@ -26,6 +26,7 @@ section.section1{
     position: relative;
 
 }
+li { cursor: pointer; cursor: hand; }
 .block-for-section{
     display: block;
 }
@@ -79,6 +80,7 @@ section.section1.h2 {
     border-color: #1fb7ea;
     font-size: 1.2em;
     height: 38px;
+    line-height: 1;
 }
 p {
     margin: 0 0 10px;
@@ -147,10 +149,13 @@ p {
  section.section2.h1{
      padding: 15px;
  }
-
+.text-center{
+    line-height: 10;
+}
  h1.text-center.header-section2-h1{
      font-size: 122%;
      margin: 44px;
+
  }
 #h3-move-left{
      margin: 10px -20px;
