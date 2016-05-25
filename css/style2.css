@@ -95,6 +95,7 @@ section.section1.h2 {
     font-size: 1.2em;
     height: 38px;
     line-height: 1;
+    margin: 35px 0px!important;
 }
 .button-move-left{
     margin: 149px 173px;
@@ -128,9 +129,37 @@ section.section1.h2 {
     background-color: rgba(38,128,201,.8);
     margin: 0px 0px!important;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
     .pull-right{
         margin: -287px 0px!important;
+    }
+    .text-right.header-section2-h1{
+        margin: 10px -78px!important;
+    }
+    .text-center{
+        margin: 28px 0px!important;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .pull-right{
+        /*margin: -448px 3px!important;*/
+    }
+
+    #header-itinerary{
+      margin: 0px 0px!important;
+    }
+    .text-right.header-section2-h1 {
+        margin-top: 17px;
+        font-size: 1.3em!important;
+        margin: 10px -7px!important;
+    }
+}
+
+@media (max-width: 1440px) {
+    .list-inline.text-center.more-small{
+        margin: 25px 100px!important;
+        font-size: 1em!important;
+        text-align: left!important;
     }
 }
 
