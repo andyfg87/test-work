@@ -126,7 +126,14 @@ section.section1.h2 {
 .pull-right {
     float: right!important;
     background-color: rgba(38,128,201,.8);
+    margin: 0px 0px!important;
 }
+@media only screen and (max-width: 768px) {
+    .pull-right{
+        margin: -287px 0px!important;
+    }
+}
+
  .background2{
      background: url("../images/thumbnail-2.807eb24b.jpg") no-repeat;
      background-size: cover;
@@ -228,6 +235,8 @@ section.section1.h2 {
     min-height: 373px;
     height: 100%;
 }
+
+
 
 
 
