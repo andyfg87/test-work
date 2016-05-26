@@ -28,7 +28,7 @@ section.section1{
 }
 li { cursor: pointer; cursor: hand; }
 
-.decorator li{
+.decorators .decorator a{
     color: #7b7b7b;
     text-decoration: none;
     transition: color .2s linear;
@@ -37,6 +37,20 @@ li { cursor: pointer; cursor: hand; }
     transition-timing-function: linear;
     transition-delay: initial;
 }
+
+section .decorators .decorator:last-child a {
+    color: #fff;
+}
+section .decorators .decorator:first-child a:hover {
+    color: #fff;
+}
+section .decorators .decorator:nth-child(2) a:hover {
+    color: #fff;
+}
+section .decorators .decorator:nth-child(3) a:hover {
+    color: #fff;
+}
+
 .block-for-section{
     display: block;
 }
