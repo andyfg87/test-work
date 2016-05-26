@@ -26,14 +26,14 @@ app.controller('CarouselDemoCtrl',function($scope){
 });
 
 app.animation('.background2',function(){
-    alert('Hola');
+    
     return{
 
         setup:function(element){
 
         },
         start: function(element, done, memo){
-            alert('Hola');
+
         }
     };
 });

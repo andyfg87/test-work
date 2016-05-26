@@ -176,6 +176,12 @@ section.section1.h2 {
      color: #fff;
      font-weight: 400;
      position: relative;
+ //////
+ transition: 0.2s linear all;
+     transition-property: all;
+     transition-duration: 0.2s;
+     transition-timing-function: linear;
+     transition-delay: initial;
 
 
  }
@@ -185,6 +191,12 @@ section.section1.h2 {
     color: #fff;
     font-weight: 400;
     position: relative;
+//////
+transition: 0.2s linear all;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: initial;
 
 }
 .background4{
@@ -193,7 +205,12 @@ section.section1.h2 {
     color: #fff;
     font-weight: 400;
     position: relative;
-
+//////
+transition: 0.2s linear all;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: initial;
 
 }
 .background1{
@@ -202,6 +219,12 @@ section.section1.h2 {
     color: #fff;
     font-weight: 400;
     position: relative;
+    //////
+    transition: 0.2s linear all;
+    transition-property: all;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    transition-delay: initial;
 
 
 }
