@@ -57,22 +57,23 @@
                 </div>
             </div>
         </section>
-        <section id="section2" data-ng-class="class" class=" col-md-12 col-sm-12">
+
+        <section id="section2" data-ng-class="class" class=" col-xs-12 col-md-12 col-sm-12">
                <div class="travel">
                <div class="row">
                    <div class="col-xs-12 col-sm-4" >
                        <h1 class="col-sm-12 col-xs-12 col-md-8 text-right header-section2-h1"> YOUR ITINERARY</h1>
                        <ul id="" class="list-inline text-center more-small">
-                           <li href="#" ng-click="changeBackground('background1')">Day 1</li>
-                           <li href="#" ng-click="changeBackground('background2')">Day 2</li>
-                           <li href="#" ng-click="changeBackground('background3')">Day 3</li>
-                           <li href="#" ng-click="changeBackground('background4')">Day 4</li>
+                           <li href="#" ng-click="changeBackground(slides[3])">Day 1</li>
+                           <li href="#" ng-click="changeBackground(slides[1])">Day 2</li>
+                           <li href="#" ng-click="changeBackground(slides[2])">Day 3</li>
+                           <li href="#" ng-click="changeBackground(slides[0])">Day 4</li>
                        </ul>
                    <ul class="list-inline text-center">
-                       <li href="#" ng-click="changeBackground('background1')"><h3>&#9679────</h3></li>
-                       <li href="#" ng-click="changeBackground('background2')"><h3 id="h3-move-left">&#9679────</h3></li>
-                       <li href="#" ng-click="changeBackground('background3')"><h3>&#9679────</h3></li>
-                       <li href="#" ng-click="changeBackground('background4')"><h3 id="h3-move-left1">&#9679</h3></li>
+                       <li href="#" ng-click="changeBackground(slides[3])"><h3>&#9679────</h3></li>
+                       <li href="#" ng-click="changeBackground(slides[1])"><h3 id="h3-move-left">&#9679────</h3></li>
+                       <li href="#" ng-click="changeBackground(slides[2])"><h3>&#9679────</h3></li>
+                       <li href="#" ng-click="changeBackground(slides[0])"><h3 id="h3-move-left1">&#9679</h3></li>
                    </ul>
 
 
@@ -145,6 +146,8 @@
                </div>
 
         </section >
+
+        <!-- Do your magic -->
         <section class="" id="section3">
             <div class="row">
                 <div class="col-xs-12 col-lg-8 col-lg-offset-2">
@@ -191,10 +194,16 @@
 <!-- Bootstrap Core JavaScript -->
 <script src="css/bootstrap-3.3.2/dist/js/bootstrap.min.js"></script>
 
-<script src="js/Scripts/angular.min.js"></script>
+<!--<script src="js/Scripts/angular.min.js"></script>
+<script src="js/angular/angular-animate.min.js"></script>-->
+<script src="js/angular-1.2.18/angular.min.js"></script>
+<script src="js/angular-1.2.18/angular-animate.min.js"></script>
+
+
 <script src="js/Scripts/ui-bootstrap-tpls-0.6.0.min.js"></script>
-<script src="js/Scripts/app/carousel-demo.js"></script>
 <script src="js/Scripts/app/app.js"></script>
+<script src="js/Scripts/app/carousel-demo.js"></script>
+
 
 
 </body></html>

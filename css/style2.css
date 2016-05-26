@@ -155,11 +155,18 @@ section.section1.h2 {
     }
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1024px) {
     .list-inline.text-center.more-small{
-        margin: 25px 100px!important;
+        margin: 25px 28px!important;
         font-size: 1em!important;
         text-align: left!important;
+    }
+}
+
+@media (min-width: 1440px) {
+    .text-right.header-section2-h1{
+        margin: 10px 96px!important;
+        text-align: center;
     }
 }
 
@@ -169,6 +176,8 @@ section.section1.h2 {
      color: #fff;
      font-weight: 400;
      position: relative;
+
+
  }
 .background3{
     background: url("../images/thumbnail-3.6d2fa81e.jpg") no-repeat;
@@ -176,6 +185,7 @@ section.section1.h2 {
     color: #fff;
     font-weight: 400;
     position: relative;
+
 }
 .background4{
     background: url("../images/thumbnail-4.b6f085d0.jpg") no-repeat;
@@ -183,6 +193,8 @@ section.section1.h2 {
     color: #fff;
     font-weight: 400;
     position: relative;
+
+
 }
 .background1{
     background: url("../images/thumbnail-1.e1aa514b.jpg") no-repeat;
@@ -190,6 +202,8 @@ section.section1.h2 {
     color: #fff;
     font-weight: 400;
     position: relative;
+
+
 }
 
  section.section2.travel{
