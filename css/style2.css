@@ -199,6 +199,7 @@ transition: 0.2s linear all;
     transition-delay: initial;
 
 }
+
 .background4{
     background: url("../images/thumbnail-4.b6f085d0.jpg") no-repeat;
     background-size: cover;
@@ -228,6 +229,7 @@ transition: 0.2s linear all;
 
 
 }
+
 
  section.section2.travel{
      position: absolute;
