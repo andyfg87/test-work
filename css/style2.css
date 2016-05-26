@@ -153,6 +153,9 @@ section.section1.h2 {
     .text-center{
         margin: 28px 0px!important;
     }
+    .decorators .decorator{
+        font-size: x-small!important;
+    }
 }
 @media only screen and (min-width: 768px) {
     .pull-right{
@@ -328,6 +331,8 @@ transition: 0.2s linear all;
 .show-day.ng-hide{
     opacity: 0;
 }
+
+
 
 
 
