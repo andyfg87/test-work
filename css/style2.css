@@ -304,6 +304,18 @@ transition: 0.2s linear all;
     height: 100%;
 }
 
+/*//*/
+
+.show-day {
+    -webkit-transition: all linear 0.3s;
+    transition: 0.3s;
+}
+
+.show-day.ng-hide{
+    opacity: 0;
+}
+
+
 
 
 
