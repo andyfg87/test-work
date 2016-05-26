@@ -114,12 +114,12 @@
                        <div class="col-xs-12 col-sm-8 pull-right">
                            <div  class="row">
                                <div class="col-xs-5 col-md-3">
-                                   <h1 class="section2-title">Day 1</h1>
+                                   <h1 class="section2-title">Day {{day}}</h1>
                                </div>
                            </div>
                            <div class="row">
                                <div class="col-xs-12">
-                                   <div class="">
+                                   <div id="show-day1" class="show-day" ng-show="'background1'==class">
                                        <h1 id="header-itinerary" class="text-center">Arrive in Seattle </h1>
                                        <div class="hidden-xs">
                                            <p class="subtitle text-left">Arrival:</p>
@@ -131,6 +131,42 @@
                                            <p class="text-left">Evening:</p>
                                            <p class="text-left">Seattle's nightlife is hopping. Comedy and improv? Check. Dinner and dancing? Absolutely. Seattle's got something for everyone. If it's R&R you crave, stop by Penelope & The Beauty Bar at your hotel for some much-deserved pampering.
                                                Or take a stroll through the lobby to view early 20th century elegant décor.</p>
+                                       </div>
+                                   </div>
+                                   <div id="show-day2" class="show-day"  ng-show="'background2'==class">
+                                       <h1 id="header-itinerary" class="text-center">Space needles, stadiums, and simulated flight </h1>
+                                       <div class="hidden-xs">
+                                           <p class="subtitle text-left">Morning:</p>
+                                           <p class="text-left">After your complimentary breakfast, jet set off on your guided tour to the Future of Flight Aviation Center.
+                                               Go behind-the-scenes in the assembly plant and one of the largest buildings in the world. Visit the Boeing Theater and interactive exhibits. Test your flying abilities with the flight simulator—we won't judge if you decide it's best to keep your day job.</p>
+                                           <p class="text-left">Afternoon:</p>
+                                           <p class="text-left">Start exploring right away. Pop into an indie coffee shop for some local brew—Seattleites love their java. Take in Chihuly's stunning glasswork. Or visit the experts at the Celebrity Cruise Hospitality Desk to book tours, reserve restaurants, and gather tips.
+                                               They're here to make sure your stay is your personalized idea of fabulous.</p>
+                                           <p class="text-left">Evening:</p>
+                                           <p class="text-left">Seattle's nightlife is hopping. Comedy and improv? Check. Dinner and dancing? Absolutely. Seattle's got something for everyone. If it's R&R you crave, stop by Penelope & The Beauty Bar at your hotel for some much-deserved pampering.
+                                               Or take a stroll through the lobby to view early 20th century elegant décor.</p>
+                                       </div>
+                                   </div>
+                                   <div id="show-day3" class="show-day"  ng-show="'background3'==class">
+                                       <h1 id="header-itinerary" class="text-center">Puget Sound to Pike Place Market </h1>
+                                       <div class="hidden-xs">
+                                           <p class="subtitle text-left">Morning:</p>
+                                           <p class="text-left">After your complimentary breakfast, indulge in some downtime. Or check out the Puget Sound sea life at the Seattle Aquarium.
+                                               Your Celebrity Cruises Hospitality Desk is also available for tour recommendations or suggestions to explore on your own.</p>
+                                           <p class="text-left">Afternoon:</p>
+                                           <p class="text-left">A trip to Seattle wouldn't be complete without seeing how this city “does gourmet.” Your guided tour will leave you with a true appreciation for Seattle flavor. Local experts will lead you on an astronomical gastronomical food and culture tour.
+                                               Check out Seattle's foodie scene at restaurants in Belltown, downtown Seattle, and Pike Place Market. There's even a truffle café specializing in (yup, you guessed it) all things truffle.</p>
+                                           <p class="text-left">Evening:</p>
+                                           <p class="text-left">Walk off the food tour with stunning views of the downtown waterfront—just five minutes from the hotel.
+                                               Or unwind in the jacuzzi before turning in for the night.</p>
+                                       </div>
+                                   </div>
+                                   <div id="show-day3" class="show-day"  ng-show="'background4'==class">
+                                       <h1 id="header-itinerary" class="text-center">Your ship awaits </h1>
+                                       <div class="hidden-xs">
+                                           <p class="subtitle text-left">Morning:</p>
+                                           <p class="text-left">After breakfast, we'll take you to the port. Get ready to set sail aboard the award-winning Celebrity Solstice®.</p>
+                                           
                                        </div>
                                    </div>
                                </div>
