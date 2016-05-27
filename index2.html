@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<!-- saved from url=(0065)http://blackrockdigital.github.io/startbootstrap-the-big-picture/ -->
+<!-- Make sure the <html> tag is set to the .full CSS class. Change the background image in the full.css file. --><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>The Test</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap-3.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+
+    <![endif]-->
+
+</head>
+<body ng-app="myApp">
+<div class=""></div>
+<div class="container-fluid">
+    <div class="row " ng-controller="CarouselDemoCtrl">
+        <div class="main.content">
+            <section class="section1">
+               <ul class="list-inline decorators">
+                   <li class="decorator"><a href="#">Home</a></li>
+                   <li class="decorator"><a href="#">Vacation Packages</a></li>
+                   <li class="decorator"><a href="#">City Stays</a></li>
+                   <li class="decorator"><a href="#">Seattle City Stay</a></li>
+               </ul>
+                <div class="row">
+                    <div class="row space">
+                    </div>
+                    <div class="col-xs-12">
+                        <div class="row ">
+                            <div class="col-sm-4 col-sm-offset-4  text-center">
+                                <h3 id="header-section1-h1"  >Seattle</h3>
+                                <h1 id="header-section1-h2"  >City Stay</h1>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-xs-12 col-md-8 col-md-offset-2">
+                                <p class="start-page">Start your Alaska vacation before your ship even sails.
+                                    Add a Celebrity City Stay to your cruise and experience Seattle for three glorious days and nights.</p>
+                                <div class="text-center">
+                                    <button class="button">SEE THE ITINERARY</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row space">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="itinerary"  data-ng-class="class" class="">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 text-center">
+                        <h4 > YOUR ITINERARY</h4>
+                        <ul class="list-inline text-center">
+                            <li href="#" ng-click="changeBackground(slides[3])">Day 1</li>
+                            <li href="#" ng-click="changeBackground(slides[1])">Day 2</li>
+                            <li href="#" ng-click="changeBackground(slides[2])">Day 3</li>
+                            <li href="#" ng-click="changeBackground(slides[0])">Day 4</li>
+                        </ul>
+                        <ul class="list-inline text-center">
+                            <li href="#" ng-click="changeBackground(slides[3])"><h4>&#9679────</h4></li>
+                            <li href="#" ng-click="changeBackground(slides[1])"><h4 >&#9679────</h4></li>
+                            <li href="#" ng-click="changeBackground(slides[2])"><h4>&#9679────</h4></li>
+                            <li href="#" ng-click="changeBackground(slides[0])"><h4>&#9679</h4></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-8 pull-right">
+                        <div class="row ">
+                            <div class="col-xs-5 col-md-3 ">
+                                <h2 class="section2-title">Day {{day}}</h2>
+
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 ">
+                                <div id="show-day1" class="show-day"  ng-show="'background1'==class">
+                                    <h4 class="text-center set-color">Arrive in Seattle </h4>
+                                    <div class=" set-color">
+                                        <p class="text-left">Arrival:</p>
+                                        <p class="text-left">You've arrived. We'll meet you at the airport to whisk you away to the luxurious Fairmont Olympic Hotel, a celebrated historical landmark located in the heart of downtown Seattle. Convenience is
+                                            key here—you're close to Pike Place Market and many other Seattle hot spots.</p>
+                                        <p class="text-left">Afternoon:</p>
+                                        <p class="text-left">Start exploring right away. Pop into an indie coffee shop for some local brew—Seattleites love their java. Take in Chihuly's stunning glasswork. Or visit the experts at the Celebrity Cruise Hospitality Desk to book tours, reserve restaurants, and gather tips.
+                                            They're here to make sure your stay is your personalized idea of fabulous.:</p>
+                                        <p class="text-left">Evening:</p>
+                                        <p class="text-left">Seattle's nightlife is hopping. Comedy and improv? Check. Dinner and dancing? Absolutely. Seattle's got something for everyone. If it's R&amp;R you crave, stop by Penelope &amp; The Beauty Bar at your hotel for some much-deserved pampering.
+                                            Or take a stroll through the lobby to view early 20th century elegant décor.</p>
+                                    </div>
+                                </div>
+                                <div id="show-day2" class="show-day"  ng-show="'background2'==class">
+                                    <h4 class="text-center set-color">Space needles, stadiums, and simulated flight </h4>
+                                    <p class="subtitle text-left">Morning:</p>
+                                    <p class="text-left">After your complimentary breakfast, jet set off on your guided tour to the Future of Flight Aviation Center.
+                                        Go behind-the-scenes in the assembly plant and one of the largest buildings in the world. Visit the Boeing Theater and interactive exhibits. Test your flying abilities with the flight simulator—we won't judge if you decide it's best to keep your day job.</p>
+                                    <p class="text-left">Afternoon:</p>
+                                    <p class="text-left">Start exploring right away. Pop into an indie coffee shop for some local brew—Seattleites love their java. Take in Chihuly's stunning glasswork. Or visit the experts at the Celebrity Cruise Hospitality Desk to book tours, reserve restaurants, and gather tips.
+                                        They're here to make sure your stay is your personalized idea of fabulous.</p>
+                                    <p class="text-left">Evening:</p>
+                                    <p class="text-left">Seattle's nightlife is hopping. Comedy and improv? Check. Dinner and dancing? Absolutely. Seattle's got something for everyone. If it's R&amp;R you crave, stop by Penelope &amp; The Beauty Bar at your hotel for some much-deserved pampering.
+                                        Or take a stroll through the lobby to view early 20th century elegant décor.</p>
+                                </div>
+                                <div id="show-day3" class="show-day "  ng-show="'background3'==class">
+                                   <h4 class="text-center set-color">Puget Sound to Pike Place Market </h4>
+                                    <p class="subtitle text-left">Morning:</p>
+                                    <p class="text-left">After your complimentary breakfast, indulge in some downtime. Or check out the Puget Sound sea life at the Seattle Aquarium.
+                                        Your Celebrity Cruises Hospitality Desk is also available for tour recommendations or suggestions to explore on your own.</p>
+                                    <p class="text-left">Afternoon:</p>
+                                    <p class="text-left">A trip to Seattle wouldn't be complete without seeing how this city “does gourmet.” Your guided tour will leave you with a true appreciation for Seattle flavor. Local experts will lead you on an astronomical gastronomical food and culture tour.
+                                        Check out Seattle's foodie scene at restaurants in Belltown, downtown Seattle, and Pike Place Market. There's even a truffle café specializing in (yup, you guessed it) all things truffle.</p>
+                                    <p class="text-left">Evening:</p>
+                                    <p class="text-left">Walk off the food tour with stunning views of the downtown waterfront—just five minutes from the hotel.
+                                        Or unwind in the jacuzzi before turning in for the night.</p>
+                                </div>
+                                <div id="show-day4" class="show-day"  ng-show="'background4'==class">
+                                    <h4 class="text-center set-color">Your ship awaits </h4>
+                                    <p class="subtitle text-left">Morning:</p>
+                                    <p class="text-left">After breakfast, we'll take you to the port. Get ready to set sail aboard the award-winning Celebrity Solstice®.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row space2"></div>
+                    <div class="row text-center">
+                        <div class="col-xs-12 col-md-8 col-md-offset-2">
+                            <button class="button btn-lg">HOW TO BOOK</button>
+                        </div>
+                    </div>
+                    <div class="row space2"></div>
+                </div>
+            </section>
+            <section class="" id="section3">
+                <div class="row">
+                    <div class="col-xs-12 col-lg-8 col-lg-offset-2">
+                        <h1 id="section3-header">Start your Alaska vacation before your ship even sails.</h1>
+                        <div class="row same-height">
+                            <div class="col-xs-12 col-sm-6 cell" >
+                                <div class=" fill-blue">
+                                    <h2> WHAT'S INCLUDED</h2>
+                                    <ul class="">
+                                        <li>3 nights in the luxurious Fairmont Olympic Hotel, with breakfasts.</li>
+                                        <li>Half-day, fully guided tour and farewell dinner at a local favorite restaurant.</li>
+                                        <li>Half-day, fully guided tour and farewell dinner at a local favorite restaurant. </li>
+                                        <li>Celebrity Cruises Hospitality Desk in your hotel.</li>
+                                        <li>All airport and seaport transfers.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6 ">
+                                <div class=" fill-blue">
+                                    <h2> HOW TO BOOK</h2>
+                                    <ul class="">
+                                        <li>First, book your cruise.</li>
+                                        <li>Then, simply add your City Stay package when you manage your reservation.</li>
+                                        <li>Or Call us at <a href="tel:+18006472251">1-800-647-2251 </a>, or contact your travel agent.</li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row space2"></div>
+                        <div class="text-center">
+                            <a><button class="button btn-lg ">FIND YOUR CRUISE</button></a>
+                        </div>
+                        <div class="row space"></div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+
+</body>
+
+<script src="css/bootstrap-3.3.2/dist/js/bootstrap.min.js"></script>
+
+<!--<script src="js/Scripts/angular.min.js"></script>
+<script src="js/angular/angular-animate.min.js"></script>-->
+<script src="js/angular-1.2.18/angular.min.js"></script>
+<script src="js/angular-1.2.18/angular-animate.min.js"></script>
+
+
+<script src="js/Scripts/ui-bootstrap-tpls-0.6.0.min.js"></script>
+<script src="js/Scripts/app/app.js"></script>
+<script src="js/Scripts/app/carousel-demo.js"></script>
+</html>
