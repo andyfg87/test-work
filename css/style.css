@@ -207,3 +207,11 @@ li { cursor: pointer; cursor: hand; }
     line-height: 1.6;
 
 }
+
+.pull-right .row{
+    margin-right: 0px!important;
+}
+#itinerary .row .col-xs-12.col-sm-8.pull-right.left-less {
+    margin-right: 15px;
+    width: calc(66.66666667% - 30px);
+}
